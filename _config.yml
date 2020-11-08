@@ -5,7 +5,7 @@ description: >
   Learn about the simple yet verbose Myfile format for profiles.
 lang: en-US
 
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://myfiles.blogold.xyz # the base hostname & protocol for your site
 git_address: https://github.com/bleonard252/myfiles
 git_edit_address: https://github.com/bleonard252/myfiles/blob/gh-pages
