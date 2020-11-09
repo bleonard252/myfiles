@@ -5,11 +5,13 @@ A "username" is the filename of the Myfile, seen after the "//" in a Myfile addr
 
 Usernames:
 * can have alphanumeric characters (i.e. `[0-9a-zA-Z]`)
-* can have parentheses (`( and )`), brackets (`[ and ]`), and curly braces (`{ and }`). They do not have to match.
-* can have the less-than (`&lt;`) and greater-than (`&gt;`) symbols.
+* can have parentheses (`( and )`), brackets (`[ and ]`), curly braces (`{ and }`), apostrophes and simple quotes (`' and "`). They do not have to match.
+* can have the less-than (`<`) and greater-than (`>`) symbols.
 * cannot have emoji. They can be represented in the `xn--...` punycode form.
 * can be any (reasonable) length. They must be at least one character, for blank usernames refer to the domain.
-* can have the plus +, minus -, ampersand ("and" sign) &, asterisk \*, forward-slashes / (these are not used for navigation past the // in the path), tildes ~, underscores (underlines) _, and exclamation points !.
+* can have the plus +, minus -, ampersand ("and" sign) &, asterisk \*, forward-slashes / (these are not used for navigation past the // in the path), tildes ~, underscores (underlines) _, periods ., commas ,, question marks ?, and exclamation points !.
+* cannot have backslashes (\\). This is to allow them to escape curly braces that may be in the address.
+* cannot have two successive forward-slashes, such as `//`. This is used to separate the path from the username.
 
 <!--To test it, see this:
 <input pattern="[0-9a-zA-Z-+&\/\\_\*@$%^`~ \[\]\{\}\!]+" class="myfile-username-test">
