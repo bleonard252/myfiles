@@ -15,4 +15,4 @@ Myfile is a profile in a file that is easily referred to by the notation `host//
 * Since Myfile usernames can include `.`, you cannot use ".json" or any file extension of that sort for the server to present the Myfile as JSON or whatever format. You must use the Accept header or the "type" query string.
 * You need to set up CORS to accept all hosts. CORS is a pain in the butt for this type of thing.
 
-View my Myfile: [blogold.xyz//blake](https://blogold.xyz//blake?type=json) or the [web display version](https://blogold.xyz//blake) or the [parse test version](https://blogold.xyz/product/myfile/viewer.html#!blogold.xyz//blake).
+{% comment %}View my Myfile: [blogold.xyz//blake](https://blogold.xyz//blake?type=json) or the [web display version](https://blogold.xyz//blake) or the [parse test version](https://blogold.xyz/product/myfile/viewer.html#!blogold.xyz//blake).{% endcomment %}
