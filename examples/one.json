@@ -1,7 +1,0 @@
-{
-    "name": "Example User",
-    "description": "This is an example Myfile for a person.",
-    "picture": "www.ohmyhandmade.com/wp-content/uploads/2011/12/twitter-egg.jpg",
-    "_comment_1": "Note that \"type\": \"person\" is not needed, since it should be assumed the default.",
-    "publickey": "...insert public key here..."
-}

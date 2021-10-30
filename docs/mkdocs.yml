@@ -1,0 +1,8 @@
+site_name: Myfiles
+site_url: https://myfiles.readthedocs.io
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - toc.integrate
