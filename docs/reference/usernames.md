@@ -4,6 +4,7 @@ title: Usernames
 A "username" is the filename of the Myfile, seen after the "//" in a Myfile address.
 
 Usernames:
+
 * can have alphanumeric characters (i.e. `[0-9a-zA-Z]`)
 * can have parentheses (`( and )`), brackets (`[ and ]`), curly braces (`{ and }`), apostrophes and simple quotes (`' and "`). They do not have to match.
 * can have the less-than (`<`) and greater-than (`>`) symbols.
