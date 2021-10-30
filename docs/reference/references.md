@@ -46,11 +46,12 @@ For Myfiles, references are used to indicate a relationship between a Myfile or 
     `location:pluscode`: Physical location
     : This corresponds to a location indicated by a Pluscode.
 
+    !!! info inline end ""
+        
+        `location:what3words` and `location:whatthreewords` are also accepted in place of `location:w3w`.
+    
     `location:w3w`: Physical location
     : This corresponds to a location indicated by a What3Words address.
-        !!! info inline end ""
-            
-            `location:what3words` and `location:whatthreewords` are also accepted in place of `location:w3w`.
 
     `org.openstreetmap.id`: Physical location via OpenStreetMap
     : This corresponds to an OpenStreetMap item accessible from openstreetmap.org. This can then be used to get a location.
