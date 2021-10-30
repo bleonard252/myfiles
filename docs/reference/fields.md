@@ -21,7 +21,7 @@ All fields are optional. These are base fields. The fields in [References](refer
 : Each link can be in Markdown format, i.e. `[Label](URL)`, or can be the URL itself. Due to the way browsers handle links, it is not recommended to use Multiformats addresses here.
 
 `publickey`: string (JSON-escaped armored public key string)
-: The **PUBLIC KEY** that represents/belongs to the (person represented by the) Myfile. **NEVER use a private key in a Myfile!**{: .text-warning} This is used to verify the `owner` of most non-`"person"` Myfiles, such as websites.
+: The **PUBLIC KEY** that represents/belongs to the (person represented by the) Myfile. <font color="red">**NEVER use a private key in a Myfile!**</font> This is used to verify the `owner` of most non-`"person"` Myfiles, such as websites.
 
 `owner`: MyfileAddress as string
 : The Myfile address to a party responsible for this Myfile or what it represents. If the owner has a `"publickey"` set, then the property (the Myfile this field is on) must have a `"verification"` field.
@@ -33,4 +33,4 @@ All fields are optional. These are base fields. The fields in [References](refer
 : See [Verification](verification).
 
 `sshkey`: string
-: The Myfile user's SSH **PUBLIC KEY.** **NEVER use a private key in a Myfile!**{: .text-warning} Servers can use this to allow users to authenticate to their servers.
+: The Myfile user's SSH **PUBLIC KEY.** <font color="red">**NEVER use a private key in a Myfile!**</font> Servers can use this to allow users to authenticate to their servers.

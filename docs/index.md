@@ -14,5 +14,3 @@ Myfile is a profile in a file that is easily referred to by the notation `host//
 * The best practice is to present your Myfile as minified JSON. Myfiles rely upon the ubiquity of JSON; it's a required filetype to present it as. You can use YAML, TOML, XML, HTML, or really whatever you want to present the Myfile as long as the JSON version is accessible by `?type=json` and/or the `Accept` header.
 * Since Myfile usernames can include `.`, you cannot use ".json" or any file extension of that sort for the server to present the Myfile as JSON or whatever format. You must use the Accept header or the "type" query string.
 * You need to set up CORS to accept all hosts. CORS is a pain in the butt for this type of thing.
-
-{% comment %}View my Myfile: [blogold.xyz//blake](https://blogold.xyz//blake?type=json) or the [web display version](https://blogold.xyz//blake) or the [parse test version](https://blogold.xyz/product/myfile/viewer.html#!blogold.xyz//blake).{% endcomment %}
