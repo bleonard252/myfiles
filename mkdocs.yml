@@ -16,6 +16,10 @@ theme:
     accent: purple
 plugins:
   - search
+markdown_extensions:
+  - def_list
+  - sane_lists
+  - attr_list
 nav:
   - Home: 'index.md'
   - For Users:
