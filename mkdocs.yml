@@ -1,13 +1,29 @@
 site_name: Myfiles
 site_url: https://myfiles.readthedocs.io
+repo_url: https://github.com/bleonard252/myfiles
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/git-alt
   features:
     - navigation.instant
     - navigation.tabs
     - toc.integrate
+  palette:
+    primary: green
+    accent: purple
+plugins:
+  - search
 nav:
   - Home: 'index.md'
-  - Reference: 'reference/'
-  - Examples:
+  - For Users:
+    - reference/fields.md
+    - reference/references.md
+    - reference/cards.md
+    - reference/verification.md
+  - For Developers:
+    - reference/lookup.md
+    - reference/usernames.md
+    - reference/namespacing.md
+  - Example Myfiles:
     - 'Example 1': 'examples/one.json'
