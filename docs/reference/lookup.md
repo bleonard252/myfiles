@@ -14,5 +14,6 @@ If a 5xx class error results, try the same check again, perhaps with a timeout. 
 
 ## IPFS Myfile lookups
 Myfiles that are formatted similar to `ipfs!Qm...//username` or `ipns!Qm...//username` (preferred) should be looked up using the following methodology:
+
 1. Check `/<username>.json`. Fail if any IPFS error occurs or if the Myfile is invalid.
 2. Check `/.well-known/myfiles/<username>.json` (or, in the case of a "site" Myfile, `/.well-known/index.myfile.json`) and apply the same checks.
