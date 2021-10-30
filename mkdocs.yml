@@ -6,3 +6,8 @@ theme:
     - navigation.instant
     - navigation.tabs
     - toc.integrate
+nav:
+  - Home: 'index.md'
+  - Reference: 'reference/'
+  - Examples:
+    - 'Example 1': 'examples/one.json'
