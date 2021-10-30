@@ -1,7 +1,9 @@
 site_name: Myfiles
 site_url: https://myfiles.readthedocs.io
-repo_url: https://github.com/bleonard252/myfiles
+repo_url: https://github.com/bleonard252/myfiles.git
 theme:
+  logo: assets/icon.png
+  favicon: assets/favicon.ico
   name: material
   icon:
     repo: fontawesome/brands/git-alt
@@ -26,4 +28,5 @@ nav:
     - reference/usernames.md
     - reference/namespacing.md
   - Example Myfiles:
+    - examples/
     - 'Example 1': 'examples/one.json'
